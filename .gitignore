@@ -1,6 +1,5 @@
 venv
 .vscode
-.gitignore
 automate_online-materials
 collatzSequence.py
 standardplot.py
