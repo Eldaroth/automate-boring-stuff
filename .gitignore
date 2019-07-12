@@ -1,0 +1,5 @@
+venv
+.vscode
+automate_online-materials
+collatzSequence.py
+standardplot.py
