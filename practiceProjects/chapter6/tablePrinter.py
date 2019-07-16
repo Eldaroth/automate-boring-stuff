@@ -11,7 +11,7 @@ def printTable(listOfItems):
     # iterate over each of the items in the list
     for k in range(len(listOfItems[0])):
         for l in range(len(listOfItems)):
-            print(listOfItems[l][k].rjust(colWidths[l]), end=" ")
+            print(listOfItems[l][k].rjust(colWidths[l]) + " |", end=" ")
         print()
 
 
