@@ -32,4 +32,11 @@ for i in range(len(message)):
     chunk = message[i : i + 12]
     if isPhoneNumber(chunk):
         print("Phone number found: " + chunk)
-print("Done")
+print("Done with a function\n")
+
+# Variant with regular expressions (no function required)
+phone_num_regex = re.compile(r"\d{3}-\d{3}-\d{4}")
+match = phone_num_regex.findall(message)
+for number in match:
+    print("Phone number found: " + number)
+print("Done with regular expressions\n")
